@@ -1,0 +1,772 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #222;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #1dc514;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Шапка */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1dc514;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #1dc514;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1dc514;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Герой секция */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #eef1f5 100%);
+    padding: 2rem 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1 1 400px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+    line-height: 1.2;
+}
+
+.hero-text h1 span {
+    color: #1dc514;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.hero-img {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.hero-img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.9rem 2.2rem;
+    background-color: #1dc514;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+.btn:hover {
+    background-color: #1dc514;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.35);
+}
+
+/* Обо мне */
+.about {
+    padding: 8rem 0;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-img {
+    flex: 1 1 350px;
+}
+
+.about-img img {
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.about-text {
+    flex: 1 1 450px;
+}
+
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    color: #666;
+    font-size: 1.05rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skill {
+    background-color: #f1f5f9;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #1dc514;
+    font-weight: 500;
+}
+
+/* Портфолио *//* Портфолио */
+/* Портфолио (Услуги) */
+.portfolio {
+    padding: 10rem 0; /* УВЕЛИЧИЛИ отступы сверху/снизу (с 8rem до 10rem) — отодвигает секцию от "About Us" и "Contact Us" */
+    background-color: #f8fafc;
+}
+
+.portfolio-filter {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 5rem; /* УВЕЛИЧИЛИ отступ снизу (с 4rem до 5rem) — отодвигает сетку услуг от фильтров */
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.filter-btn.active {
+    background-color: #1dc514;
+    color: #fff;
+}
+
+.filter-btn:hover:not(.active) {
+    background-color: #f1f5f9;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 3.5rem; /* УВЕЛИЧИЛИ расстояние между карточками услуг (с 2.5rem до 3.5rem) */
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden; /* Скрывает лишние части изображения (гарантирует полное заполнение) */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: all 0.4s ease;
+    padding: 1.5rem; /* ДОБАВИЛИ внутренние отступы в карточке — отодвигает изображение от границ карточки */
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+/* Контейнер для изображения (гарантирует полную высоту) */
+.portfolio-img {
+    height: 280px; /* УВЕЛИЧИЛИ высоту изображения (с 250px до 280px) — делает картинки больше */
+    width: 100%; /* Занимает всю ширину внутреннего пространства карточки */
+    overflow: hidden; /* Скрывает лишнее, чтобы изображение не выходило за контейнер */
+    border-radius: 8px; /* Дополнительный радиус для изображения (по желанию) */
+}
+
+/* Изображение — заполняет контейнер полностью */
+.portfolio-img img {
+    width: 100%; /* Полная ширина контейнера .portfolio-img */
+    height: 100%; /* Полная высота контейнера .portfolio-img */
+    object-fit:block ; /* Сохраняет пропорции, обрезает лишнее (без искажений) */
+    transition: transform 0.7s ease;
+    padding: 10px; /* Убираем лишние отступы */
+    margin: 0; /* Убираем лишние отступы */
+}
+
+.portfolio-item:hover .portfolio-img img {
+    transform: scale(1.1); /* Эффект увеличения при наведении (оставляем для интерактивности) */
+}
+
+.portfolio-info {
+    padding: 1.8rem 0 0; /* Отступ сверху — отодвигает текст от изображения */
+}
+
+.portfolio-info h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: #222;
+}
+
+.portfolio-info p {
+    color: #666;
+    margin-bottom: 1.2rem;
+    font-size: 0.95rem;
+}
+
+.portfolio-category {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background-color: #f1f5f9;
+    color: #1dc514;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+/* Контакты */
+.contact {
+    padding: 8rem 0;
+    background-color: #fff;
+}
+
+.contact-content {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    flex: 1 1 450px;
+}
+
+.form-group {
+    margin-bottom: 1.8rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+    color: #222;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1dc514;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form-group textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+.contact-info {
+    flex: 1 1 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.contact-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #eff6ff;
+    color: #1dc514;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.contact-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.contact-details p {
+    color: #666;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.social-links a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #eff6ff;
+    color: #1dc514;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #1dc514;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+/* Футер */
+footer {
+    background-color: #1e293b;
+    color: #94a3b8;
+    padding: 5rem 0 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-col {
+    flex: 1 1 200px;
+}
+
+.footer-col h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-col a {
+    transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: #1dc514;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #334155;
+    font-size: 0.9rem;
+}
+
+/* Адаптив */@media (max-width: 992px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about-content {
+        gap: 3rem;
+    }
+    
+    .contact-content {
+        gap: 3rem;
+    }
+
+    /* Адаптация портфолио: немного уменьшаем отступы и высоту изображений */
+    .portfolio {
+        padding: 8rem 0; /* Уменьшаем вертикальные отступы (с 10rem до 8rem) */
+    }
+    
+    .portfolio-grid {
+        gap: 2.5rem; /* Уменьшаем расстояние между карточками (с 3.5rem до 2.5rem) */
+    }
+    
+    .portfolio-img {
+        height: 250px; /* Уменьшаем высоту изображений (с 280px до 250px) */
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+    
+    .hero {
+        height: auto;
+        padding: 6rem 0;
+    }
+    
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-content {
+        gap: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    /* Адаптация секций: уменьшаем отступы для мобильных */
+    .about, .contact {
+        padding: 6rem 0;
+    }
+    
+    .portfolio {
+        padding: 6rem 0; /* Еще больше уменьшаем отступы (с 8rem до 6rem) */
+    }
+    
+    .portfolio-filter {
+        margin-bottom: 3.5rem; /* Уменьшаем отступ до сетки (с 5rem до 3.5rem) */
+    }
+    
+    .portfolio-item {
+        padding: 1rem; /* Уменьшаем внутренние отступы карточки (с 1.5rem до 1rem) */
+    }
+    
+    .portfolio-img {
+        height: 220px; /* Уменьшаем высоту изображений (с 250px до 220px) */
+    }
+    
+    .portfolio-info {
+        padding: 1.5rem 0 0; /* Уменьшаем отступ текста от изображения (с 1.8rem до 1.5rem) */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-img img {
+        width: 100%;
+        height: 100%;
+        border-width: 6px; /* Уменьшаем толщину рамки для мобильных */
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* Одна карточка в ряд (оставляем) */
+        gap: 2rem; /* Еще меньше расстояние между карточками (с 2.5rem до 2rem) */
+    }
+    
+    .portfolio-img {
+        height: 200px; /* Финальная уменьшение высоты изображений для маленьких экранов */
+    }
+    
+    .portfolio-info h3 {
+        font-size: 1.2rem; /* Уменьшаем размер заголовка услуги */
+    }
+    
+    .portfolio-info p {
+        font-size: 0.9rem; /* Уменьшаем размер описания */
+    }
+    
+    .btn {
+        padding: 0.8rem 1.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .footer-col {
+        text-align: center;
+        margin-bottom: 2rem; /* Добавляем отступ между колонками футера */
+    }
+}

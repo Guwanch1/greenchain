@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenChain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+<style>
+        /* Сброс стилей */
+
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">GreenChain</a>
+                
+                <button class="mobile-menu" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Главная страница</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#portfolio">Наши услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Добро пожаловать в <span>Greenchain Consulting Services</span></h1>
+                    <h1></h1>
+                    <p> Компания Greenchain Consulting Services Co., Ltd. предлагает широкий спектр услуг для тех, 
+                        кто приезжает в Китай с деловыми, образовательными или туристическими целями. Мы
+                        помогаем сделать ваше пребывание в Китае комфортным и безопасным: профессиональный
+                        перевод документов, бизнес-туры и экспресс-туры, легализация документов, поступление в
+                        китайские университеты и сопровождение бизнеса.</p>
+                    <a href="#portfolio" class="btn"> Ваш надежный партнер в Китае.</a>
+                </div>
+                <div class="hero-img">
+                    <img src="photo/GreanChai — копия.jpg" alt="Фото профиля">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>О Нас</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="photo/Azi.jpg" alt="Фото разработчика">
+                </div>
+                <div class="about-text">
+                    <h3>Кто мы</h3>
+                    <p>Greenchain Consulting Services Co., Ltd — это сервисная компания, основанная в Пекине и
+                        работающая для того, чтобы соединять людей, идеи и возможности. Мы хорошо понимаем
+                        трудности, с которыми сталкиваются иностранные студенты, путешественники и
+                        предприниматели в Китае.</p>
+                    <p>Наша миссия проста: сделать Китай более доступным. Мы предлагаем профессиональные
+                        услуги в области перевода, легализации документов, организации туров и поступления в
+                        университеты.</p>
+                    <p>Мы гордимся тем, что являемся не только поставщиком услуг, но и вашим надежным
+                        партнером в достижении успеха в Китае.</p>
+
+                                            <!--
+                                            <div class="skills">
+                                                <span class="skill">HTML5</span>
+                                                <span class="skill">CSS3</span>
+                                                <span class="skill">JavaScript</span>
+                                                <span class="skill">React</span>
+                                                <span class="skill">Node.js</span>
+                                                <span class="skill">Git</span>
+                                                <span class="skill">Figma</span>
+                                            </div>
+                                            -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            
+            <div class="portfolio-filter">
+                    
+                    <!--
+                <p class="about-text">At Greenchain Consulting Services, we offer a full range of services designed to support your 
+                    success in China</p>
+                
+                    <button class="filter-btn active">Все</button>
+                <button class="filter-btn">Веб-сайты</button>
+                <button class="filter-btn">Приложения</button>
+                <button class="filter-btn">Дизайн</button>
+                    -->
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Проект 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.icon-icons.com/38/PNG/512/student_4950.png" alt="电子商务网站">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Documents</span>
+                        <h3>Профессиональный перевод документов</h3>
+                        <p>очный и надежный перевод деловых, академических и юридических документов.</p>
+                        <a href="#" class="btn">Посмотрть</a>
+                    </div>
+                </div>
+                
+                <!-- Проект 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="photo/trip.png" alt="移动应用界面">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Tours</span>
+                        <h3>Экспресс-туры и бизнес-туры</h3>
+                        <p>Индивидуальные и корпоративные туры по Китаю.</p>
+                        <a href="#" class="btn">Посмотрть</a>
+                    </div>
+                </div>
+                
+                <!-- Проект 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="photo/documen.png" alt="餐厅网站">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Documents</span>
+                        <h3>Легализация документов</h3>
+                        <p>Нотариальное заверение, апостиль, аутентификация и легализация.</p>
+                        <a href="#" class="btn">Посмотрть</a>
+                    </div>
+                </div>
+                
+                <!-- Проект 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="photo/student.png" alt="设计作品">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Studing</span>
+                        <h3>Поступление в университеты Китая</h3>
+                        <p>Полное сопровождение иностранных студентов при поступлении.</p>
+                        <a href="#" class="btn">Посмотрть</a>
+                    </div>
+                </div>
+                
+                <!-- Проект 5 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="photo/business.png" alt="博客网站">
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Tours</span>
+                        <h3>Бизнес-сопровождение в Китае</h3>
+                        <p>Консультации и практическая помощь для предпринимателей и деловых гостей.</p>
+                        <a href="#" class="btn">Посмотрть</a>
+                    </div>
+                </div>
+                
+                                    <!-- Проект 6 
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="https://picsum.photos/id/96/600/400" alt="管理应用">
+                                        </div>
+                                        <div class="portfolio-info">
+                                            <span class="portfolio-category">Приложения</span>
+                                            <h3>Приложение для управления задачами</h3>
+                                            <p>Приложение с календарем, напоминаниями и совместным доступом.</p>
+                                            <a href="#" class="btn">Посмотреть</a>
+                                        </div>
+                                    </div>
+                                    -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name"> Имя</label>
+                            <input type="text" id="name" placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Введите ваш email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" placeholder="Введите ваше сообщение"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Адрес</h3>
+                            <p>China Beijing Chaoyang Ritan G floor G533</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>greenchain2024@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Телефон/WeChat:</h3>
+                            <p><a rel="Phone">+86 18519737433</a> </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Рабочее время </h3>
+                            <p>24/7</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+           
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>О Нас</h3>
+                    <p>В компании «Greenchain Consulting Services Co., Ltd» мы посвящаемся объединению людей и возможностей в Китае.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="#hero">Главная страница</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#portfolio">Наши услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                 
+                            <div class="footer-col">
+                                <h3>Наши услуги </h3>
+                                <ul>
+                                    <li><a href="#">Туры</a></li>
+                                    <li><a href="#">Документации</a></li>
+                                    <li><a href="#">Учеба</a></li>
+                                    
+                                </ul>
+                            </div>
+            </div>
+    
+            <div class="copyright">
+                <p>&copy; 2025 Мое Портфолио. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Мобильное меню
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        // Фильтры портфолио
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Удаляем класс active у всех кнопок
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Добавляем класс active текущей кнопке
+                btn.classList.add('active');
+                // Логика фильтрации (можно добавить при необходимости)
+            });
+        });
+        
+        // Плавная прокрутка
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Закрываем мобильное меню после клика
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        const icon = mobileMenuBtn.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
